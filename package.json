@@ -1,0 +1,16 @@
+{
+  "name": "shatil_travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "node-sass scss/ --output dist/css",
+    "css-watch": "npm run css-compile && npm run css-compile -- -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
